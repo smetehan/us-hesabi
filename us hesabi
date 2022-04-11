@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class project {
+
+
+    static int us(int a, int b) {
+        int result = 1;
+
+        for (int i = 1; i <= b; i++) {
+            result *= a;
+
+        }
+        System.out.println("Us hesabi :" + result);
+        return result;
+    }
+
+
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+
+
+            System.out.print("ilk sayi :");
+            int a = scan.nextInt();
+            System.out.print("ikinci sayi :");
+            int b = scan.nextInt();
+
+         us(a,b);
+         
+    }
+
+
+}
+
+
+
